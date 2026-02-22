@@ -103,25 +103,25 @@ Automatically alternates every few cycles.
 
 - 🔌 Connectivity Mode
 
-This version uses:
-```bash
-#include <BlynkSimpleStream.h>
-```
+    This version uses:
+    ```bash
+    #include <BlynkSimpleStream.h>
+    ```
 
-Connection initialized with:
-```bash
-Serial.begin(9600);
-Blynk.begin(Serial, BLYNK_AUTH_TOKEN);
-```
+    Connection initialized with:
+    ```bash
+    Serial.begin(9600);
+    Blynk.begin(Serial, BLYNK_AUTH_TOKEN);
+    ```
 
-How It Works
- 1. Arduino connects to PC via USB.
- 2. Blynk runs through USB Serial stream.
- 3. PC provides internet connectivity.
- 4. Blynk Cloud communicates through the PC.
+    How It Works
+    1. Arduino connects to PC via USB.
+    2. Blynk runs through USB Serial stream.
+    3. PC provides internet connectivity.
+    4. Blynk Cloud communicates through the PC.
 
-⚠️ Important:
-The Arduino must remain connected to a powered computer for remote functionality.
+    ⚠️ Important:
+    The Arduino must remain connected to a powered computer for remote functionality.
 
 ---
 
@@ -133,12 +133,12 @@ The Arduino must remain connected to a powered computer for remote functionality
   - Servo
 
   2️⃣ Update Credentials
-Edit these lines:
-```bash
-#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
-#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
-#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
-```
+    Edit these lines:
+    ```bash
+    #define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+    #define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+    #define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
+    ```
 
   3️⃣ Upload Code
   - Select **Arduino Mega 2560**
@@ -192,3 +192,4 @@ Ebrahim Abdul Raoof
 ## 📜 License
 
 This project is licensed under the MIT License. See [LICENSE](https://github.com/EbrahimAR/E-Sports-Results-Tracker/blob/main/LICENSE) for details.#
+
