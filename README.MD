@@ -74,7 +74,7 @@ Displays:
       - Humidity
       - Light Level
 
-  - Screeb 2:
+  - Screen 2:
       - Motion status
       - Distance reading
 
