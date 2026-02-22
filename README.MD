@@ -32,11 +32,11 @@ The Arduino connects directly to a computer using USB, and the computer provides
 - 🚨 Intruder Detection
     When the system is Armed:
 
-    Triggers if:
+    - Triggers if:
       - Motion detected (PIR)
       - OR object detected within 20cm (Ultrasonic)
 
-    On breach:
+    - On breach:
       - Loud buzzer alarm
       - Push notification via:
     ```bash
@@ -192,3 +192,4 @@ Ebrahim Abdul Raoof
 ## 📜 License
 
 This project is licensed under the MIT License. See [LICENSE](https://github.com/EbrahimAR/E-Sports-Results-Tracker/blob/main/LICENSE) for details.#
+
