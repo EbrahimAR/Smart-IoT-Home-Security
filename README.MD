@@ -30,34 +30,34 @@ The Arduino connects directly to a computer using USB, and the computer provides
   - Light Level Monitoring (LDR)
 
 - 🚨 Intruder Detection
-When the system is Armed:
+    When the system is Armed:
 
-Triggers if:
-  - Motion detected (PIR)
-  - OR object detected within 20cm (Ultrasonic)
+    Triggers if:
+      - Motion detected (PIR)
+      - OR object detected within 20cm (Ultrasonic)
 
-On breach:
-  - Loud buzzer alarm
-  - Push notification via:
-```bash
-Blynk.logEvent("intruder_alert", "Security Breach!");
-```
+    On breach:
+      - Loud buzzer alarm
+      - Push notification via:
+    ```bash
+    Blynk.logEvent("intruder_alert", "Security Breach!");
+    ```
 
-- 💡 Smart Night Light (LDR + Motion Based)
-  - Adjustable darkness threshold (V5 Slider)
-  - LED activates only when:
-    - Motion detected
-    - AND room is dark
+    - 💡 Smart Night Light (LDR + Motion Based)
+      - Adjustable darkness threshold (V5 Slider)
+      - LED activates only when:
+        - Motion detected
+        - AND room is dark
 
-- 🌬 Hybrid Smart Fan Control (Relay Based)
-Two Modes:
+    - 🌬 Hybrid Smart Fan Control (Relay Based)
+    Two Modes:
 
-🔄 Auto Mode (V6 = ON)
-  - Fan turns ON if temperature > 19°C
-  - Turns OFF otherwise
+    🔄 Auto Mode (V6 = ON)
+      - Fan turns ON if temperature > 19°C
+      - Turns OFF otherwise
 
-🎮 Manual Mode (V6 = OFF)
-  - Controlled directly via Switch V7
+    🎮 Manual Mode (V6 = OFF)
+      - Controlled directly via Switch V7
 
 - 🚨 Virtual Panic Button (V8)
 When pressed:
@@ -135,9 +135,9 @@ Automatically alternates every few cycles.
   2️⃣ Update Credentials
     Edit these lines:
     ```bash
-    #define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
-    #define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
-    #define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
+     #define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+     #define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+     #define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
     ```
 
   3️⃣ Upload Code
@@ -192,4 +192,3 @@ Ebrahim Abdul Raoof
 ## 📜 License
 
 This project is licensed under the MIT License. See [LICENSE](https://github.com/EbrahimAR/E-Sports-Results-Tracker/blob/main/LICENSE) for details.#
-
