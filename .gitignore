@@ -1,0 +1,80 @@
+# -----------------------------
+# Arduino Build Files
+# -----------------------------
+*.ino.cpp
+*.ino.with_bootloader.hex
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+*.lss
+*.sym
+
+# Arduino IDE temporary files
+*.tmp
+*.bak
+*.log
+
+# -----------------------------
+# Build Folders
+# -----------------------------
+build/
+Build/
+out/
+dist/
+
+# -----------------------------
+# macOS System Files
+# -----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------
+# Windows System Files
+# -----------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -----------------------------
+# Linux System Files
+# -----------------------------
+*~
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+*.code-workspace
+
+# -----------------------------
+# JetBrains IDEs
+# -----------------------------
+.idea/
+
+# -----------------------------
+# PlatformIO (if used later)
+# -----------------------------
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# -----------------------------
+# Environment / Secrets (Optional)
+# -----------------------------
+.env
+secrets.h
+config.h
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Backup Files
+# -----------------------------
+*.backup
+*.old
