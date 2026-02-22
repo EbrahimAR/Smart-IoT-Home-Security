@@ -134,12 +134,12 @@ Automatically alternates every few cycles.
   - Servo
 
   2️⃣ Update Credentials
-    Edit these lines:
-    ```bash
-    #define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
-    #define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
-    #define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
-    ```
+Edit these lines:
+```bash
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
+```
 
   3️⃣ Upload Code
   - Select **Arduino Mega 2560**
