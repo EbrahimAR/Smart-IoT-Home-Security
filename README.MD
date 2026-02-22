@@ -102,27 +102,27 @@ Automatically alternates every few cycles.
 
 ---
 
-- 🔌 Connectivity Mode
+## 🔌 Connectivity Mode
 
-    This version uses:
-    ```bash
-    #include <BlynkSimpleStream.h>
-    ```
+  This version uses:
+  ```bash
+  #include <BlynkSimpleStream.h>
+  ```
 
-    Connection initialized with:
-    ```bash
-    Serial.begin(9600);
-    Blynk.begin(Serial, BLYNK_AUTH_TOKEN);
-    ```
+  Connection initialized with:
+  ```bash
+  Serial.begin(9600);
+  Blynk.begin(Serial, BLYNK_AUTH_TOKEN);
+  ```
 
-    How It Works
-    1. Arduino connects to PC via USB.
-    2. Blynk runs through USB Serial stream.
-    3. PC provides internet connectivity.
-    4. Blynk Cloud communicates through the PC.
+  How It Works
+  1. Arduino connects to PC via USB.
+  2. Blynk runs through USB Serial stream.
+  3. PC provides internet connectivity.
+  4. Blynk Cloud communicates through the PC.
 
-    ⚠️ Important:
-    The Arduino must remain connected to a powered computer for remote functionality.
+  ⚠️ Important:
+  The Arduino must remain connected to a powered computer for remote functionality.
 
 ---
 
@@ -193,4 +193,5 @@ Ebrahim Abdul Raoof
 ## 📜 License
 
 This project is licensed under the MIT License. See [LICENSE](https://github.com/EbrahimAR/Smart-IoT-Home-Security/blob/main/LICENSE.txt) for details.#
+
 
