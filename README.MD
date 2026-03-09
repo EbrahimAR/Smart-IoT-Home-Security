@@ -192,6 +192,6 @@ Ebrahim Abdul Raoof
 
 ## 📜 License
 
-This project is licensed under the MIT License. See [LICENSE](https://github.com/EbrahimAR/Smart-IoT-Home-Security/blob/main/LICENSE.txt) for details.#
+This project is licensed under the MIT License. See [LICENSE](https://github.com/EbrahimAR/Smart-IoT-Home-Security/blob/main/LICENSE.txt) for details.
 
 
